@@ -2,7 +2,7 @@
 ## 有条件的建议自行编译吧 以下为使用方法
 
 ```
-sudo curl -L "https://github.com/AaronYYDS/docker-compose-aarch64/releases/download/main/docker-compose-Linux-aarch64" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/AaronYYDS/Notes/releases/download/docker-compose-arm64/docker-compose-Linux-aarch64" -o /usr/local/bin/docker-compose
 ```
 ## 将可执行权限应用于二进制文件：
 ```
