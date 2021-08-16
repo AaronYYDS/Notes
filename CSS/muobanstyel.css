@@ -1,0 +1,19 @@
+.tt-small-blur{position:relative;z-index:1;display:flex;overflow:hidden;background-color:#333;color:#fff}
+.tt-small-blur .tt-left-box{z-index:1;-webkit-clip-path:polygon(0 0,94% 0,100% 100%,0 100%);clip-path:polygon(0 0,94% 0,100% 100%,0 100%)}
+.tt-small-blur .tt-left-img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}
+.tt-small-blur .tt-blur-img{position:absolute;top:0;right:0;bottom:0;left:0;z-index:0;width:100%;height:100%;background-position:center;background-size:cover;transform:scale(1.4);-o-object-fit:cover;object-fit:cover;-webkit-filter:blur(1.275rem) brightness(.83);filter:blur(1.275rem) brightness(.83)}
+.tt-small-blur .post-meta{z-index:1;display:flex;color:inherit;flex-direction:column;justify-content:space-between}
+.tt-small-blur .text-title{color:inherit}
+.tt-small-blur .post-meta h2,.tt-small-blur .post-meta p{text-shadow:.1875rem .1875rem .3125rem #333;letter-spacing:.09rem}
+.tt-small-blur .text-muted{color:inherit}
+.tt-small-blur .post-meta{padding:30px 30px 15px 30px}
+html.theme-dark .tt-small-blur .tt-blur-img{display:none}
+@media(max-width:500px){.tt-small-blur .index-post-title{display:-webkit-box;display:-moz-box;overflow:hidden;margin-bottom:2px;height:48px;text-overflow:ellipsis;white-space:normal;word-wrap:break-word;line-height:1.4;-webkit-line-clamp:2;-webkit-box-orient:vertical;-moz-line-clamp:2;-moz-box-orient:vertical;word-break:break-all}
+}
+@media(max-width:500px){.tt-small-blur .summary{display:none}
+}
+@media(max-width:380px){.tt-small-blur .post-meta{padding:10px 15px}
+}
+@media(min-width:768px) and (max-width:1199px){.tt-small-blur .summary{height:55px}
+.tt-small-blur .line-lg{margin-top:1px;margin-bottom:1px}
+}
