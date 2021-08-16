@@ -25,3 +25,4 @@ PHP需要安装GD、mbstring、fileinfo和exif扩展，安装完毕后记得重�
 <script src="https://cdn.jsdelivr.net/gh/AaronYYDS/Notes/JS/files.js"></script>
 保存即可。
 ```
+![gallery](https://cdn.jsdelivr.net/gh/AaronYYDS/Notes/IMG/gallery.png)
